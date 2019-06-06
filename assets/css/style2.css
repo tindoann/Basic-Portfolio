@@ -109,4 +109,11 @@ input {
 
 .btn {
   float: left; 
+  margin-bottom: 30px; 
+  background: #4aaaa4; 
+  font-size: 18px; 
+  color: #fff; 
+  padding: 10px 25px; 
+  
+  
 }
