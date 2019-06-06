@@ -1,43 +1,50 @@
 * {
   box-sizing: border-box; 
-  text-align: center; 
+  margin: 0 auto; 
 }
 
 body { 
   font-family: Georgia, Times, 'Times New Roman', serif; 
-  background-image: url("../../assets/images/floor-tile.png"); 
-  margin: 0 150px; 
-  color: #fff;  
-  font-size: 18px; 
+  background-image: url("../../assets/images/floor-tile.png");
 }
 
-.container {
-  width: 1680px; 
-  background: #fff; 
+header {
+
+  width: 100%; 
+  margin-bottom: 20px; 
+  background-color: #fff; 
+  height: 105px; 
+  border-bottom: 2px solid #ccc; 
 }
+
+.wrapper {
+  width: 960px; 
+}
+
+
 nav {
+  float:right;
   background: #fff; 
-  display: inline-block; 
-  border-bottom: 2px solid #cccccc;
-  width: 960px;  
+  margin-bottom: 0; 
 }
 
 hr {
   font-size: 22px; 
 }
 
-.left {
-  margin: 0; 
+.name {
+  margin: 0;
+  text-align: center; 
   font-weight: 800px; 
   background: #4aaaa5; 
-  padding: 30px 50px; 
+  padding: 25px 0px; 
   color: #fff; 
-  width: 250px; 
-  height: 100px; 
+  width: 350px; 
+  height: 105px; 
   float: left; 
 }
 
-.right {
+ul li {
   list-style-type: none; 
   line-height: 100px; 
   margin: 0; 
@@ -46,7 +53,8 @@ hr {
   font-size: 12px; 
 }
 
-.right li {
+ul li {
+  color: #777;
   font-size: 18px; 
   float: right; 
 }
@@ -68,7 +76,7 @@ a:link {
 
 main {
   width: 960px; 
-  margin: 50px 100px 0 100px; 
+  margin: 0 auto; 
   padding: 0 20px; 
   background: #fff; 
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
